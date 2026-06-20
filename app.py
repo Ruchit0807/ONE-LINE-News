@@ -1,5 +1,4 @@
 import streamlit as st
-from dotenv import load_dotenv
 from langchain_tavily import TavilySearch
 from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -11,8 +10,6 @@ page_title="ONE-LINE News",
 page_icon="📰",
 layout="wide"
 )
-
-load_dotenv()
 
 
 st.markdown("""
